@@ -4,6 +4,8 @@ A physics-based **3D orbital mechanics simulator** built with **Three.js** and *
 
 This project blends **astrodynamics**, **numerical integration methods**, and **visualization** into a single simulation of one of humanity’s most iconic journeys: *from Earth to the Moon*.
 
+Live at https://zaid-al-habbal.github.io/apollo-11-simulation/
+
 ---
 
 ## Features
