@@ -29,6 +29,10 @@ export class GuiManager {
       width: 400,
       title: "Simulation Controls",
     });
+    const dom = this.gui.domElement;
+    dom.style.position = "absolute";
+    dom.style.left = "1025px";
+    dom.style.top = "10px";
     Object.assign(this.gui.domElement.style, {
       backgroundColor: "rgba(10, 20, 30, 0.95)", // deep dark blue
       border: "1px solid #00ffcc",
