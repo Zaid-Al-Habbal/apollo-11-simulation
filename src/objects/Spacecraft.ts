@@ -62,7 +62,7 @@ export class Spacecraft {
     const loader = new GLTFLoader(loaderManager);
 
     loader.load(
-      '${import.meta.env.BASE_URL}models/saturn-v-3rd-stage.glb', // path to your model
+      `${import.meta.env.BASE_URL}models/saturn-v-3rd-stage.glb`, // path to your model
       (craft) => {
         this.group.add(craft.scene);
         craft.scene.position.set(0, 0, 0);

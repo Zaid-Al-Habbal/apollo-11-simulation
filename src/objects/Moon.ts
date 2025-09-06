@@ -16,8 +16,8 @@ export class Moon extends CelestialBody {
       orbitPeriod: 27.32 * 24 * 3600,     // s
       axialTilt: 6.68,                    // degrees
       scalePerUnit: 1_000_000,                   // 1 unit = 1000 km
-      textureMap: '${import.meta.env.BASE_URL}textures/moon/moonmap4k.jpg',
-      bumpMap: '${import.meta.env.BASE_URL}textures/moon/moonbump4k.jpg',
+      textureMap: `${import.meta.env.BASE_URL}textures/moon/moonmap4k.jpg`,
+      bumpMap: `${import.meta.env.BASE_URL}textures/moon/moonbump4k.jpg`,
     }, loaderManager);
     this.trail = new OrbitTrail(0x837eb0, 50,3000, 0.5);
 

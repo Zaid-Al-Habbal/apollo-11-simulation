@@ -167,7 +167,7 @@ spacecraft.setInitialState(rVec, vVec);
 
 const scProp = new SpacecraftPropagatorRK4({ craft: spacecraft, primaries: [earth, moon], eps: 0, atmosphere: earth.atmosphere });
 
-const skyboxTexture = createSkybox('${import.meta.env.BASE_URL}textures/skybox/', manager);
+const skyboxTexture = createSkybox(`${import.meta.env.BASE_URL}textures/skybox/`, manager);
 scene.background = skyboxTexture;
 
 const time = new TimeController(10);

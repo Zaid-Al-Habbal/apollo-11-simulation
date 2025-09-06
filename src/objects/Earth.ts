@@ -17,9 +17,9 @@ export class Earth extends CelestialBody {
       orbitPeriod: 365.25 * 24 * 3600,    // s
       axialTilt: 23.4,                    // degrees
       scalePerUnit: 1_000_000,                   // 1 unit = 1000 km
-      textureMap: '${import.meta.env.BASE_URL}textures/earth/8k_earth_daymap.jpg',
-      specularMap: '${import.meta.env.BASE_URL}textures/earth/8k_earth_specular_map.jpg',
-      cloudsMap: '${import.meta.env.BASE_URL}textures/earth/8k_earth_clouds.jpg',
+      textureMap: `${import.meta.env.BASE_URL}textures/earth/8k_earth_daymap.jpg`,
+      specularMap: `${import.meta.env.BASE_URL}textures/earth/8k_earth_specular_map.jpg`,
+      cloudsMap: `${import.meta.env.BASE_URL}textures/earth/8k_earth_clouds.jpg`,
     }, loaderManager);
     this.atmosphere = new Atmosphere({geometry: this.geometry});
     this.group.add(this.atmosphere.mesh);
